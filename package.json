@@ -1,0 +1,10 @@
+{
+  "name": "test-preinstall",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "preinstall": "echo Failing && exit 1",
+  "devDependencies": {
+    "is-number": "^7.0.0"
+  }
+}
